@@ -7,4 +7,5 @@ export interface Vehicle {
   marca: string;
   ano: number;
   img: string;
+  valor:number;
 }
