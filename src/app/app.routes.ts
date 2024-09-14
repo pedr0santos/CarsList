@@ -7,8 +7,8 @@ export const routes: Routes = [
     path: '',
     component: LayoutComponent, // Envolvendo todas as rotas com o layout principal
     children: [
-      { path: '', component: HomeComponent },
+      { path: 'home', component: HomeComponent },
     ],
   },
-  { path: '**', redirectTo: '' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
