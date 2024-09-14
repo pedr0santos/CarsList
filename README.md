@@ -1,45 +1,27 @@
 # CarsList
-A project to visualize a list of cars, made in Angular, tailwindcss
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
 
-# Angular 18 Project
+## Development server
 
-## Descrição
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Este é um projeto desenvolvido com **Angular 18**, uma plataforma popular para construção de aplicações web modernas. O projeto segue as melhores práticas para desenvolvimento de uma aplicação modular, escalável e eficiente.
+## Code scaffolding
 
-## Tecnologias Utilizadas
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- **Angular 18** - Framework principal para desenvolvimento.
-- **TypeScript** - Linguagem usada no desenvolvimento.
-- **RxJS** - Biblioteca para programação reativa.
-- **PrimeNG** - Biblioteca de componentes UI para Angular.
-- **SCSS** - Pré-processador CSS para estilização.
-- **Angular CLI** - Ferramenta de linha de comando para geração e execução de projetos.
+## Build
 
-## Funcionalidades
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-- Arquitetura modular.
-- Implementação de componentes reutilizáveis.
-- Integração com API RESTful.
-- Responsividade usando CSS Flexbox e Grid.
-- Suporte a paginadores (PrimeNG) e gráficos dinâmicos (Highcharts).
-- Gerenciamento de estado com serviços e `BehaviorSubject`.
-- Suporte a formulários reativos.
-  
-## Requisitos
+## Running unit tests
 
-Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em seu ambiente:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-- **Node.js** (versão 16.0 ou superior)
-- **Angular CLI** (versão 18.x)
-- **NPM** (gerenciador de pacotes do Node.js)
+## Running end-to-end tests
 
-## Instalação
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-Siga os passos abaixo para configurar o projeto localmente:
+## Further help
 
-1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
