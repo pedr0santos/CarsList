@@ -6,4 +6,5 @@ export interface Vehicle {
   modelo: string;
   marca: string;
   ano: number;
+  img: string;
 }
