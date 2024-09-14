@@ -1,0 +1,17 @@
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Garante que o layout ocupe toda a altura da janela */
+}
+
+app-header {
+  flex-shrink: 0; /* Faz com que o header não encolha */
+  height: 60px; /* Ajuste conforme a altura do seu header */
+  background-color: #333;
+  color: white;
+}
+
+.layout-main-container {
+  flex-grow: 1; /* Faz com que o conteúdo principal cresça para ocupar o espaço disponível */
+  overflow-y: auto; /* Garante que o conteúdo role caso necessário */
+}
