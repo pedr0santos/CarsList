@@ -17,6 +17,13 @@ export class CarsService {
       .pipe(catchError(this.handleError));
   }
 
+  getVehicle(id: number): Observable<Vehicle> {
+    return this.http
+      .get<Vehicle>(`${this.apiUrl}/cars/${id}`)
+      .pipe(catchError(this.handleError));
+  }
+
+
   private handleError(error: any) {
     console.error('Ocorreu um erro:', error);
     return throwError(

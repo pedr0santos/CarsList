@@ -1,6 +1,12 @@
 # CarsList
 
+Este projeto trata-se de uma lista de veículos, com algumas informações sobre eles, também uma página de detalhes dos veículos.
+
+Este projeto utiliza-se de uma Api mockada hospedada no MockApi.com
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+
 
 ## Development server
 
